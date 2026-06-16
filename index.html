@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Guardian</title>
+    <link rel="icon" href="Image/oceanguardianlogo.png" type="Image/oceanguardianlogo.ico">
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="main-navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">
+                <div class="brand-text-wrapper">
+                    <span class="brand-main">OCEAN</span>
+                    <span class="brand-sub">GUARDIAN</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu-links">
+                <li><a href="#home" class="menu-item active">Home</a></li>
+                <li><a href="#about" class="menu-item">About</a></li>
+                
+                <li class="nav-dropdown-wrapper">
+                    <a href="#topics" class="menu-item dynamic-trigger">
+                        Topic<i class='bx bx-chevron-down toggle-arrow'></i>
+                    </a>
+                    <ul class="dropdown-panel">
+                        <li><a href="#species"><i class='bx bx-water'></i>Endangered Marine Animals</a></li>
+                        <li><a href="#ecosystem"><i class='bx bx-dna'></i> Marine Ecosystems</a></li>
+                        <li><a href="#threats"><i class='bx bx-shield-quarter'></i>Threats to Marine Life</a></li>
+                        <li><a href="#action"><i class='bx bx-shield-quarter'></i> Conservation and Action</a></li>
+                        <li><a href="#stories"><i class='bx bx-shield-quarter'></i> Conservation Success Stories</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-dropdown-wrapper">
+                    <a href="#quiz" class="menu-item dynamic-trigger">
+                        Quiz<i class='bx bx-chevron-down toggle-arrow'></i>
+                    </a>
+                    <ul class="dropdown-panel">
+                        <li><a href="#species"><i class='bx bx-water'></i>Endangered Marine Animals</a></li>
+                        <li><a href="#ecosystem"><i class='bx bx-dna'></i> Marine Ecosystems</a></li>
+                        <li><a href="#threats"><i class='bx bx-shield-quarter'></i>Threats to Marine Life</a></li>
+                        <li><a href="#action"><i class='bx bx-shield-quarter'></i> How to Help Out</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#faq" class="menu-item">Leaderboard</a></li>
+            </ul>
+
+            <div class="nav-action-group">
+                <a href="#quiz-anchor" class="nav-cta-block">Sign Up</a>
+                <button class="nav-search-trigger" aria-label="Search Site">
+                    <i class="bx bx-user-circle"></i>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <header class="ocean-hero" id="home">
+        <div class="hero-inner">
+            <span class="sub-heading">PROTECTING OCEAN LIFE</span>
+            <h1>Protect Our Oceans, Preserve Our Future</h1>
+            <p class="hero-intro">Discover marine species, explore ocean ecosystems, understand environmental threats, and learn how everyone can help create a healthier future for our oceans.</p>
+            
+            <div class="hero-actions">
+                <a href="#topics" class="hero-primary-btn">Explore Marine Topics</a>
+                <a href="#quiz-anchor" class="hero-secondary-btn">Test Your Knowledge</a>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-box">
+                    <h3>1000+</h3>
+                    <p>marine species at risk</p>
+                </div>
+                <div class="stat-box">
+                    <h3>71%</h3>
+                    <p>of Earth's surface is covered by oceans</p>
+                </div>
+                <div class="stat-box">
+                    <h3>11M+</h3>
+                    <p>metric tons of plastic enter the ocean</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="our-mission" id="our-mission">
+        <div class="our-mission-content">
+
+            <div class="mission-image">
+                <img src="Image/homepageourmission.png" alt="Woman holding a sea turtle">
+            </div>
+
+            <div class="mission-text">
+                <span class="mission-subtitle" data-aos="fade-up" data-aos-duration="1000">Our Mission</span>
+                <h2 data-aos="fade-up" data-aos-duration="1000">Many <span class="mission-highlight">Marine Species</span><br> Face Extinction</h2>
+                <p data-aos="fade-up" data-aos-duration="1200">Plastic pollution, overfishing, habitat destruction, and climate change are threatening <span class="mission-highlight">marine life around the world.</span> As a result, many species face <span class="mission-highlight">declining populations</span> and an <span class="mission-highlight">uncertain future.</span></p>
+                <h3 class="mission-subtitle-two" data-aos="fade-up" data-aos-duration="1200">Our mission is to:</h3>
+
+                <div class="mission-item" data-aos="fade-up" data-aos-duration="1400">
+                    <i class="bx bxs-megaphone"></i>
+                    <p>Raise awareness about endangered marine species</p>
+                </div>
+
+                <div class="mission-item" data-aos="fade-up" data-aos-duration="1600">
+                    <i class="bx bxs-shield"></i>
+                    <p>Encourage action that doesn't harm marine life</p>
+                </div>
+
+                <div class="mission-item" data-aos="fade-up" data-aos-duration="1800">
+                    <i class="bx bx-water"></i>
+                    <p>Promote ocean conservation through everyday actions</p>
+                </div>
+
+                <a href="#" class="mission-btn" data-aos="fade-up" data-aos-duration="1000">LEARN MORE <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="site-section" id="topics">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Knowledge base</span>
+                <h2>The Three Pillars of Marine Exploration</h2>
+            </div>
+
+            <div class="topics-hub-layout">
+                
+                <div class="topic-hub-card" id="ecosystems">
+                    <div class="card-vector-header style-systems">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="card-badge">Systems</div>
+                    </div>
+                    <div class="card-info-content">
+                        <h3>Marine Ecosystems</h3>
+                        <p>Delve into the foundational architectural networks anchoring our global underwater habitats.</p>
+                        <ul class="topic-sub-list">
+                            <li><i class="fa-solid fa-circle-nodes"></i> <strong>Coral Reefs:</strong> Crucial ocean biological hotspots.</li>
+                            <li><i class="fa-solid fa-circle-nodes"></i> <strong>Mangroves:</strong> Natural coastal carbon sequestration.</li>
+                            <li><i class="fa-solid fa-circle-nodes"></i> <strong>Seagrass Meadows:</strong> Vast oxygenation zones.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="topic-hub-card" id="species">
+                    <div class="card-vector-header style-fauna">
+                        <i class="fa-solid fa-fish-fins"></i>
+                        <div class="card-badge alert">Fauna</div>
+                    </div>
+                    <div class="card-info-content">
+                        <h3>Endangered Marine Species</h3>
+                        <p>Tracking vulnerable organisms currently balancing on the brink of structural population failure.</p>
+                        <ul class="topic-sub-list">
+                            <li><i class="fa-solid fa-shrimp"></i> <strong>Featured Species:</strong> Cetaceans to micro-crustaceans.</li>
+                            <li><i class="fa-solid fa-shrimp"></i> <strong>Conservation Status:</strong> Real-time IUCN indexing metrics.</li>
+                            <li><i class="fa-solid fa-shrimp"></i> <strong>Threat Profiles:</strong> Commercial corridor enforcement.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="topic-hub-card" id="threats">
+                    <div class="card-vector-header style-threats">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <div class="card-badge critical">Threats</div>
+                    </div>
+                    <div class="card-info-content">
+                        <h3>Oceanic Environmental Threats</h3>
+                        <p>Isolating human-driven challenges currently fracturing our marine biological security baselines.</p>
+                        <ul class="topic-sub-list">
+                            <li><i class="fa-solid fa-skull-crossbones"></i> <strong>Plastic Debris:</strong> Microplastic particle lifecycles.</li>
+                            <li><i class="fa-solid fa-skull-crossbones"></i> <strong>Overfishing:</strong> Unregulated commercial bottom-trawling.</li>
+                            <li><i class="fa-solid fa-skull-crossbones"></i> <strong>Acidification:</strong> Industrial carbon absorption damage.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="quiz-anchor" class="scroll-spacer"></div>
+    <section class="site-section bg-light" id="quiz">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Interactive Evaluation</span>
+                <h2>Test Your Marine Intelligence</h2>
+                <p>Select your answers below to verify your current tracking of key SDG 14 parameters.</p>
+            </div>
+
+            <div class="quiz-panel-wrapper">
+                <div class="quiz-progress">
+                    <span id="quiz-tracker-text">Question 1 of 3</span>
+                    <div class="progress-bar-track">
+                        <div id="quiz-progress-fill" class="progress-bar-fill" style="width: 33.3%"></div>
+                    </div>
+                </div>
+
+                <div id="quiz-render-box" class="quiz-question-box">
+                    </div>
+                
+                <div class="quiz-footer-controls">
+                    <button id="quiz-next-btn" class="quiz-control-btn" disabled>Check</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="site-section" id="faq">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Clarifications</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-accordion-container">
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <h4>Why are oceans fundamentally important to global survival?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-content">
+                        <p>Oceans cover over 70% of the Earth's surface, provide more than half of the atmospheric oxygen supply through phytoplankton, cycle global thermal dynamics, and directly support billions of planetary residents.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <h4>What is the primary target objective of SDG 14?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-content">
+                        <p>UN Sustainable Development Goal 14 seeks to prevent and drastically reduce marine pollution of all kinds, sustainably manage coastal ecosystems, minimize acidification metrics, and end overharvesting by enforcing strict international maritime frameworks.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <h4>Why are marine species becoming endangered at accelerated rates?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-content">
+                        <p>Anthropogenic interaction—specifically accidental bycatch, chemical habitat toxicosis, corporate reef destruction, and warming temperature bands—disrupts breeding timelines faster than wildlife groups can naturally recover.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-trigger">
+                        <h4>How does microplastic tracking alter food chain safety?</h4>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="faq-content">
+                        <p>Large plastics break down into microscopic particles that absorb surrounding chemical toxins. These are consumed by lower-tier marine organisms, leading to bioaccumulation that compromises food safety across the human consumption grid.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
